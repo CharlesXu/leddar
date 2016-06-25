@@ -19,7 +19,7 @@
 #define Leddar_h
 
 /* _____STANDARD INCLUDES____________________________________________________ */
-#include "Arduino.h"
+//#include "Arduino.h"
 
 /* _____PROJECT INCLUDES_____________________________________________________ */
 
