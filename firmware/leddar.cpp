@@ -16,7 +16,7 @@
 // *****************************************************************************
 
 #include "Leddar.h"
-#include "Arduino.h"
+//#include "Arduino.h"
 
 #define ARRAYSIZE(v) (sizeof(v)/sizeof(v[0]))        // helper macro to get the number of elements of an array
 
