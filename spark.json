@@ -1,7 +1,7 @@
 {
-  "name": "uber-library-example",
-  "author": "Joe Goggins <joe@spark.io>",
-  "license": "MIT",
+  "name": "leddar",
+  "author": "Dipen",
+  "license": "licence",
   "version": "0.0.10",
-  "description": "A simple library that illustrates coding conventions of a Spark Library"
+  "description": "A simple library that illustrates coding conventions of a leddar Library"
 }
