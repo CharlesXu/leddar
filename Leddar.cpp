@@ -12,15 +12,15 @@
 // as is without any warranty. See License.txt for more details.
 //
 // Last edited: 25 / Aug / 2015
-// Copyright© LeddarTech, Inc. 2015
+// CopyrightÂ© LeddarTech, Inc. 2015
 // *****************************************************************************
 
 #include "Leddar.h"
-#include "Arduino.h"
+
 
 #define ARRAYSIZE(v) (sizeof(v)/sizeof(v[0]))        // helper macro to get the number of elements of an array
 
-// Table of CRC values for high–order byte
+// Table of CRC values for highâ€“order byte
 static byte CRC_HI[] =
 {
     0x00, 0xC1, 0x81, 0x40, 0x01, 0xC0, 0x80, 0x41, 0x01, 0xC0, 0x80, 0x41, 0x00, 0xC1, 0x81,
@@ -43,7 +43,7 @@ static byte CRC_HI[] =
     0x40
 };
 
-// Table of CRC values for low–order byte
+// Table of CRC values for lowâ€“order byte
 static byte CRC_LO[] =
 {
     0x00, 0xC0, 0xC1, 0x01, 0xC3, 0x03, 0x02, 0xC2, 0xC6, 0x06, 0x07, 0xC7, 0x05, 0xC5, 0xC4,
